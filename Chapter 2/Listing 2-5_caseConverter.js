@@ -6,8 +6,10 @@ export const convertCase = (chars) => {
       return c.toLowerCase();
     }
   });
+  /*
   const changedCharacters = chars.map((c) => {
     return c === c.toLowerCase() ? c.toUpperCase() : c.toLowerCase();
   });
+  */
   return changedCharacters;
 };

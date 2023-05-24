@@ -1,4 +1,4 @@
-import { convertCase } from "./caseConverter.js";
+import { convertCase } from "./Listing 2-5_caseConverter.js";
 export function swapCase() {
   const name = document.getElementById("inputName").value;
   let characters = name.split("");
